@@ -1,0 +1,116 @@
+/* ------------------------------ */
+/* NAVIGATION BAR                 */
+/* ------------------------------ */
+
+.navbar {
+  background-color: #333;
+  color: white;
+  font-size: 18px;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  color: #f2a900;
+}
+
+
+/* ------------------------------ */
+/* MAIN CONTENT + HOME SECTION    */
+/* ------------------------------ */
+
+main, #home {
+  padding: 40px 60px;
+  text-align: center;
+}
+
+main h1, #home h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+main p, #home p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+
+/* ------------------------------ */
+/* PORTFOLIO SECTION              */
+/* ------------------------------ */
+
+.portfolio-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px;
+}
+
+.portfolio-item {
+  width: 300px;
+  background: #fafafa;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.portfolio-item h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.portfolio-item p {
+  font-size: 16px;
+  color: #666;
+}
+
+
+/* ------------------------------ */
+/* HOVER EFFECT                   */
+/* ------------------------------ */
+
+.portfolio-item:hover {
+  transform: scale(1.05);
+}
+
+
+/* ------------------------------ */
+/* FOOTER                         */
+/* ------------------------------ */
+
+#footer {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  margin-top: 40px;
+}
